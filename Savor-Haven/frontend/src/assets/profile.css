@@ -1,0 +1,43 @@
+/* Profile.css */
+
+.profile {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.profile-info {
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.profile-info img {
+
+    justify-content: center;
+
+
+}
+
+.profile-info .info {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-info h2 {
+    margin-top: 0;
+}
+
+/* You can further style the profile info as per your design */

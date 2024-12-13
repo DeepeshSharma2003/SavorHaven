@@ -1,0 +1,54 @@
+.profile-section {
+  justify-content: space-around;
+  display: flex;
+  align-items: center;
+}
+
+.profile-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+}
+
+.profile-info span {
+  font-weight: bold;
+}
+
+.section {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
+.logo-name {
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo-model {
+  top: 0%;
+  width: 10vh;
+  height: min-content;
+  aspect-ratio: 3/4;
+}
+
+nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
